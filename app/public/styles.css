@@ -7,3 +7,31 @@ h1 {
 li {
   color: whitesmoke;
 }
+button {
+  color: darkorange;
+  cursor: pointer;
+}
+button:hover {
+  color: deeppink;
+}
+input {
+  display: flex;
+}
+input[type="text"] {
+  width: 30%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+input[type="password"] {
+  width: 30%;
+  padding: 12px, 20px;
+  margin: 8px, 0;
+  box-sizing: border-box;
+}
+select {
+  width: 20%;
+  padding: 12px, 20px;
+  display: flex;
+  justify-content: space-between;
+}
